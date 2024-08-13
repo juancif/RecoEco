@@ -38,3 +38,17 @@ body{
 .link_volver:hover{
     margin-left: 100px;
 }
+
+.yoshi{
+    position: absolute;
+    width: 100px;
+    margin-left: 500px;
+    margin-top: 600px;
+}
+
+.mario_inicio{
+    position: absolute;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 500px;
+}
