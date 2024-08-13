@@ -18,7 +18,7 @@ body{
 
 .boton_empezar{
     background-color: transparent;
-    background-image: url(/imagenes/ladrillos_fondo_mario-removebg-preview.png);
+    background-image: url(/imagenes/ladrillos_fondo_mario.png);
     margin-top: 100px;
     margin-left: 600px;
     width: 350px;
@@ -31,7 +31,7 @@ body{
 
 .boton_empezar:hover{
     background-color: transparent;
-    background-image: url(/imagenes/mario2-removebg-preview.png);
+    background-image: url(/imagenes/mario_saltando.png);
     width: 360px;
     height: 360px;
     transition-duration: 0.8s;
