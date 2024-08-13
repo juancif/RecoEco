@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-image: url(/imagenes/fondo_mario.gif);
+    background-size: 80%;
+    color: white;
+}
+
+.titulo_principal{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 180px;
+    margin-left: 600px;
+    background-color: #0f33;
+    backdrop-filter: blur(5px);
+    width: 350px;
+    color: black;
+}
+
+.boton_empezar{
+    background-color: green;
+    margin-top: 100px;
+    margin-left: 600px;
+    width: 350px;
+    height: 350px;
+    border-radius: 100px;
+    font-size: 50px;
+    text-decoration: dashed;
+}
+
+.boton_empezar:hover{
+    background-color: transparent;
+    background-image: url(/imagenes/ladrillos_fondo_mario-removebg-preview.png);
+    width: 360px;
+    height: 360px;
+    transition-duration: 0.8s;
+    margin-top: 80px;
+    border: none;
+}
+
+
+.link_empezar{
+    text-decoration: none;
+    color: black;
+    padding: 150px 80px 150px 80px;
+    margin-left: -10px;
+}
