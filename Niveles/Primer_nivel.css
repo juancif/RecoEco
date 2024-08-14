@@ -48,20 +48,21 @@ body{
 
 .mario_inicio{
     position: absolute;
-    width: 200px;
+    width: 250px;
     margin-left: 20px;
-    margin-top: 500px;
+    margin-top: 530px;
 }
 
 .flecha_derecha{
     background-color: transparent;
-    background-image: url(/imagenes/flecha-removebg-preview.png);
+    background-image: url(/imagenes/flecha_derecha.png);
     background-size: 120px 120px;
-    margin-left: 1100px;
+    margin-left: 1300px;
     margin-top: 880px;
     width: 120px;
     height: 120px;
     border: none;
+    position: absolute;
 }
 
 .link_flecha_derecha{
@@ -73,5 +74,60 @@ body{
 }
 
 .flecha_derecha:hover {
-    padding: 10px;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.boton_golpe{
+    background-color: transparent;
+    background-image: url(/imagenes/botones_acciones_mario2.png);
+    background-size: 150px 150px;
+    margin-left: 750px;
+    margin-top: 870px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    position: absolute;
+}
+
+.link_boton_golpe{
+    text-decoration: none;
+    font-size: 40px;
+    color: transparent;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.boton_golpe:hover {
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+}
+
+.flecha_izquierda{
+    background-color: transparent;
+    background-image: url(/imagenes/flecha_izquierda.png);
+    background-size: 120px 120px;
+    margin-left: 100px;
+    margin-top: 880px;
+    width: 120px;
+    height: 120px;
+    border: none;
+    position: absolute;
+}
+
+.link_flecha_izquierda{
+    text-decoration: none;
+    font-size: 40px;
+    color: transparent;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.flecha_izquierda:hover {
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
 }
