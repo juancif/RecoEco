@@ -39,17 +39,17 @@ body{
     margin-left: 100px;
 }
 
-.gomba{
+.yoshi{
     position: absolute;
     width: 100px;
-    margin-left: 1300px;
-    margin-top: 650px;
+    margin-left: 500px;
+    margin-top: 600px;
 }
 
 .mario_inicio{
     position: absolute;
     width: 160px;
-    margin-left: 700px;
+    margin-left: 20px;
     margin-top: 530px;
 }
 
