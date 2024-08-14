@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const resetPosition = document.getElementById('flechaIzquierda');
     const flechaDerecha = document.getElementById('flechaDerecha');
     const botonGolpe = document.getElementById('botonGolpe');
-    const yoshi = document.getElementById('yoshi'); // Asegúrate de definir 'yoshi'
+    const gomba = document.getElementById('gomba'); // Asegúrate de definir 'gomba'
 
     // Funciones para el movimiento
     flechaIzquierda.addEventListener('click', () => {
@@ -18,13 +18,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const input = prompt("¿Elemento de seguridad para los ojos?");
 
         if (input === "gafas") {
-            yoshi.classList.add('transparent', 'translate-up');
-
+            gomba.src = '/imagenes/gomba_derrotado.gif'
+            gomba.classList.add('transparent', 'translate-up');
             setTimeout(() => {
 
             
-            window.location.href = '/Niveles/Segundo_nivel.html'
-        }, 1000);
+                window.location.href = '/Niveles/Tercer_nivel.html'
+            }, 2000);
+
         } else {
             window.location.href = '/win_and_lose/Perdiste.html';
         }

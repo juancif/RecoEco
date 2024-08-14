@@ -1,4 +1,50 @@
 body{
     margin: 0;
-    background-color: #222;
+    background-color: #111f;
+    background-size: 95%;
+}
+
+.ladrillo_mario{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 370px;
+}
+.perdiste{
+    background-size: 50%;
+    width: 100px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 80px;
+    padding-left:250px ;
+    position: absolute;
+    font-size: 150px;
+
+}
+
+.volver_jugar{
+    margin-left: 700px;
+    margin-top: 420px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.link_volver{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.bowser{
+    width: 600px;
+    margin-top: 600px;
+    margin-left: 450px;
+}
+
+.bowser:checked{
+    width: 700px;
 }
