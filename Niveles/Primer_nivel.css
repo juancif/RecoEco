@@ -48,7 +48,7 @@ body{
 
 .mario_inicio{
     position: absolute;
-    width: 250px;
+    width: 160px;
     margin-left: 20px;
     margin-top: 530px;
 }
@@ -63,6 +63,7 @@ body{
     height: 120px;
     border: none;
     position: absolute;
+    color: transparent;
 }
 
 .link_flecha_derecha{
@@ -90,6 +91,7 @@ body{
     height: 150px;
     border: none;
     position: absolute;
+    color: transparent;
 }
 
 .link_boton_golpe{
@@ -116,6 +118,7 @@ body{
     height: 120px;
     border: none;
     position: absolute;
+    color: transparent;
 }
 
 .link_flecha_izquierda{
@@ -131,3 +134,4 @@ body{
     width: 100px;
     height: 100px;
 }
+
