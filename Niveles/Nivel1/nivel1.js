@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             setTimeout(() => {
 
             
-            window.location.href = '/Niveles/Segundo_nivel.html'
+            window.location.href = '/Niveles/Nivel2/Segundo_nivel.html'
         }, 1000);
         } else {
             window.location.href = '/win_and_lose/Perdiste.html';

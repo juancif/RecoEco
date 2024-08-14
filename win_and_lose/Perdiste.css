@@ -24,27 +24,39 @@ body{
 }
 
 .volver_jugar{
-    margin-left: 700px;
-    margin-top: 420px;
+    background-color: transparent;
+    margin-left: 600px;
+    margin-top: 320px;
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 350px;
+    height: 300px;
     border-radius: 30px;
+
+    border: none;
 }
 
+.volver_jugar:hover {
+    background-color: transparent;
+    background-image: url(/imagenes/mario_saliendo_tuberia.webp);
+    background-size: 100%;
+    border: none;
+    color: transparent;
+}
 .link_volver{
     text-decoration: none;
-    color: black;
-    font-size: 20px;
-    padding: 30px;
+    color: white;
+    font-size: 30px;
+    padding: 120px 250px 120px 250px;
 }
+
+.link_volver:hover{
+    color: transparent;
+}
+
 
 .bowser{
     width: 600px;
-    margin-top: 600px;
+    margin-top: 610px;
     margin-left: 450px;
 }
 
-.bowser:checked{
-    width: 700px;
-}

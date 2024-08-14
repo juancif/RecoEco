@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             setTimeout(() => {
 
             
-                window.location.href = '/Niveles/Nivel3/Tercer_nivel.html'
+                window.location.href = '/Niveles/Tercer_nivel.html'
             }, 2000);
 
         } else {
