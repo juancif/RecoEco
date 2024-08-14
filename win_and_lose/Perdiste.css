@@ -42,11 +42,16 @@ body{
     border: none;
     color: transparent;
 }
+
+
 .link_volver{
+    position: absolute;
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     padding: 120px 250px 120px 250px;
+    margin-top: -200px;
+    margin-left: -300px;
 }
 
 .link_volver:hover{
@@ -58,5 +63,11 @@ body{
     width: 600px;
     margin-top: 610px;
     margin-left: 450px;
+    display: block;
+    position: absolute;
+    padding-top: 0px;
 }
 
+.bowser:hover{
+    display:table;
+}
