@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url(/imagenes/fondo_nivel3.jpg);
+    background-image: url(../../imagenes/fondo_nivel3.jpg);
     background-size: 110%;
 }
 .boton_volver{
@@ -46,19 +46,22 @@ body{
     margin-top: 650px;
 }
 
+.gomba, .gomba2{
+    margin-left: 1200px;
+}
+
 .mario_inicio{
     position: absolute;
     width: 160px;
     margin-left: 600px;
     margin-top: 530px;
 }
-
 .flecha_derecha{
     background-color: transparent;
-    background-image: url(/imagenes/flecha_derecha.png);
+    background-image: url(../../imagenes/flecha_derecha.png);
     background-size: 120px 120px;
-    margin-left: 1300px;
-    margin-top: 880px;
+    margin-left: 1050px;
+    margin-top: 750px;
     width: 120px;
     height: 120px;
     border: none;
@@ -80,13 +83,16 @@ body{
     height: 100px;
 }
 
+.contenedor_botones{
+    margin-top: 0.2vh;
+}
 
 .boton_golpe{
     background-color: transparent;
-    background-image: url(/imagenes/botones_acciones_mario2.png);
+    background-image: url(../../imagenes/botones_acciones_mario2.png);
     background-size: 150px 150px;
-    margin-left: 750px;
-    margin-top: 870px;
+    margin-left: 865px;
+    margin-top: 740px;
     width: 150px;
     height: 150px;
     border: none;
@@ -110,10 +116,10 @@ body{
 
 .flecha_izquierda{
     background-color: transparent;
-    background-image: url(/imagenes/flecha_izquierda.png);
+    background-image: url(../../imagenes/flecha_izquierda.png);
     background-size: 120px 120px;
-    margin-left: 100px;
-    margin-top: 880px;
+    margin-left: 700px;
+    margin-top: 750px;
     width: 120px;
     height: 120px;
     border: none;

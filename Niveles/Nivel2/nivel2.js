@@ -15,19 +15,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
     botonGolpe.addEventListener('click', () => {
-        const input = prompt("¿Elemento de seguridad para los ojos?");
+        const input = prompt("¿Curso que se requiere trabajos a mas de 2 metros?");
 
-        if (input === "gafas") {
-            gomba.src = '/imagenes/gomba_derrotado.gif'
+        if (input === "curso de alturas") {
+            gomba.src = '../../imagenes/gomba_derrotado.gif'
             gomba.classList.add('transparent', 'translate-up');
             setTimeout(() => {
 
             
-                window.location.href = '/Niveles/Nivel3/Tercer_nivel.html'
+                window.location.href = '../../Niveles/Nivel3/Tercer_nivel.html'
             }, 2000);
 
         } else {
-            window.location.href = '/win_and_lose/Perdiste.html';
+            window.location.href = '../../win_and_lose/Perdiste.html';
         }
     });
 
