@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
     botonGolpe.addEventListener('click', () => {
-        const input = prompt("¿Elemento de seguridad para los ojos?");
+        const input = prompt("¿Elemento que se utiliza en caso de realizar una tarea que haga mucho ruido?");
 
-        if (input === "gafas") {
+        if (input === "") {
             gomba.src = '/imagenes/gomba_derrotado.gif'
             gomba.classList.add('transparent', 'translate-up');
             setTimeout(() => {
