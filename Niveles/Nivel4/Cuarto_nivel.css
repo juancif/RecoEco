@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url(/imagenes/fondo_primer-nivel.webp);
+    background-image: url(../../imagenes/fondo_nivel3.jpg);
     background-size: 110%;
 }
 .boton_volver{
@@ -42,23 +42,102 @@ body{
 .gomba{
     position: absolute;
     width: 100px;
-    margin-left: 1300px;
-    margin-top: 650px;
+    margin-left: 500px;
+    margin-top: 69vh;
+}
+
+.gomba2{
+    position: absolute;
+    width: 100px;
+    margin-left: 1600px;
+    margin-top: 69vh;
 }
 
 .mario_inicio{
     position: absolute;
     width: 160px;
-    margin-left: 600px;
-    margin-top: 530px;
+    margin-left: 580px;
+    margin-top: 57vh;
+}
+
+.flecha_izquierda{
+    background-color: transparent;
+    background-image: url(../../imagenes/flecha_izquierda.png);
+    background-size: 120px 120px;
+    margin-left: 700px;
+    margin-top: 750px;
+    width: 120px;
+    height: 120px;
+    border: none;
+    position: absolute;
+    color: transparent;
+}
+
+
+
+.flecha_izquierda:hover {
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor_botones{
+    margin-top: 0.2vh;
+}
+
+.boton_golpe{
+    background-color: transparent;
+    background-image: url(../../imagenes/botones_acciones_mario2.png);
+    background-size: 150px 150px;
+    margin-left: 865px;
+    margin-top: 740px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    position: absolute;
+    color: transparent;
+}
+
+.boton_golpe:hover {
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+}
+
+.boton_poder{
+    background-color: transparent;
+    background-image: url(../../imagenes/poder.png);
+    background-size: 120px 120px;
+    margin-left: 1050px;
+    margin-top: 750px;
+    width: 120px;
+    height: 120px;
+    border: none;
+    position: absolute;
+    color: transparent;    
+    border-radius: 50%;
+}
+
+.boton_poder:hover{    background-size: 100px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.link_boton_poder{
+    text-decoration: none;
+    font-size: 40px;
+    color: transparent;
+    padding-top: 40px;
+    padding-bottom: 40px;    
 }
 
 .flecha_derecha{
     background-color: transparent;
-    background-image: url(/imagenes/flecha_derecha.png);
+    background-image: url(../../imagenes/flecha_derecha.png);
     background-size: 120px 120px;
-    margin-left: 1300px;
-    margin-top: 880px;
+    margin-left: 1200px;
+    margin-top: 750px;
     width: 120px;
     height: 120px;
     border: none;
@@ -80,58 +159,4 @@ body{
     height: 100px;
 }
 
-
-.boton_golpe{
-    background-color: transparent;
-    background-image: url(/imagenes/botones_acciones_mario2.png);
-    background-size: 150px 150px;
-    margin-left: 750px;
-    margin-top: 870px;
-    width: 150px;
-    height: 150px;
-    border: none;
-    position: absolute;
-    color: transparent;
-}
-
-.link_boton_golpe{
-    text-decoration: none;
-    font-size: 40px;
-    color: transparent;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.boton_golpe:hover {
-    background-size: 120px;
-    width: 120px;
-    height: 120px;
-}
-
-.flecha_izquierda{
-    background-color: transparent;
-    background-image: url(/imagenes/flecha_izquierda.png);
-    background-size: 120px 120px;
-    margin-left: 100px;
-    margin-top: 880px;
-    width: 120px;
-    height: 120px;
-    border: none;
-    position: absolute;
-    color: transparent;
-}
-
-.link_flecha_izquierda{
-    text-decoration: none;
-    font-size: 40px;
-    color: transparent;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.flecha_izquierda:hover {
-    background-size: 100px;
-    width: 100px;
-    height: 100px;
-}
 

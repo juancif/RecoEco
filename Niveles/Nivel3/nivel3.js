@@ -17,17 +17,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
     botonGolpe.addEventListener('click', () => {
         const input = prompt("¿Elemento que se utiliza en caso de realizar una tarea que haga mucho ruido?");
 
-        if (input === "") {
+        if (input === "tapaoidos") {
             gomba.src = '/imagenes/gomba_derrotado.gif'
             gomba.classList.add('transparent', 'translate-up');
             setTimeout(() => {
 
             
-                window.location.href = '/Niveles/Tercer_nivel.html'
+                window.location.href = '../../Niveles/Nivel4/Cuarto_nivel.html'
             }, 2000);
 
         } else {
-            window.location.href = '/win_and_lose/Perdiste.html';
+            window.location.href = '../../win_and_lose/Perdiste.html';
         }
     });
 

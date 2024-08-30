@@ -3,12 +3,14 @@ body{
     background-color: #111f;
     background-size: 95%;
 }
-
+.contenedor_perdiste{
+    margin-left: 20vh;
+}
 .ladrillo_mario{
     width: 800px;
-    height: 300px;
+    height: 250px;
     position: absolute;
-    margin-top: 40px;
+    margin-top: 5vh;
     margin-left: 370px;
 }
 .perdiste{
@@ -16,17 +18,16 @@ body{
     width: 100px;
     height: 300px;
     margin-left: 200px;
-    margin-top: 80px;
+    margin-top: 6vh;
     padding-left:250px ;
     position: absolute;
     font-size: 150px;
-
 }
 
 .volver_jugar{
     background-color: transparent;
-    margin-left: 600px;
-    margin-top: 320px;
+    margin-left: 110vb;
+    margin-top: 60vh;
     position: absolute;
     width: 350px;
     height: 300px;
@@ -37,7 +38,7 @@ body{
 
 .volver_jugar:hover {
     background-color: transparent;
-    background-image: url(/imagenes/mario_saliendo_tuberia.webp);
+    background-image: url(../imagenes/mario_saliendo_tuberia.webp);
     background-size: 100%;
     border: none;
     color: transparent;
@@ -61,8 +62,8 @@ body{
 
 .bowser{
     width: 600px;
-    margin-top: 610px;
-    margin-left: 450px;
+    margin-top: 52.5vh;
+    margin-left: 2vh;
     display: block;
     position: absolute;
     padding-top: 0px;
