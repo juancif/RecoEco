@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Nivel</title>
+    <link rel="stylesheet" href="Primer_nivel.css">
+    <style>
+        /* Agrega algún estilo básico para los elementos */
+        .yoshi, .mario_inicio {
+            transition: transform 0.5s;
+        }
+        .move-left {
+            transform: translateX(-100px);
+        }
+        .move-right {
+            transform: translateX(300px);
+        }
+        .scale-up {
+            transform: scale(1.2);
+        }
+        .translate-up{
+            transform: translateY(-800px);
+        }
+
+        .transparent {
+            opacity: 0.5; 
+        }
+
+    </style>
+</head>
+<body>
+    <button class="boton_volver">
+        <img src="../../imagenes/flecha_devolverse.png" alt="flecha_indicanando_hacia la izquierda" class="flecha_volver">
+        <br><a href="../../Index/index.html" class="link_volver">Volver</a>
+    </button>
+    
+    <div>
+        <img src="../../imagenes/yoshi.gif" alt="gif de yoshi" class="yoshi" id="yoshi">
+    </div>
+    <div>
+        <img src="../../imagenes/mario_inicio3.webp" alt="gif de mario en posicion de salida" class="mario_inicio" id="mario">
+    </div>
+    <div class="contenedor_botones">
+        <button class="flecha_izquierda" id="flechaIzquierda">flecha</button>
+
+        <button class="boton_golpe" id="botonGolpe">Golpe</button>
+
+        <button class="flecha_derecha" id="flechaDerecha">flecha</button>
+    </div>
+
+    <script src="nivel1.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Nivel</title>
+    <link rel="stylesheet" href="Cuarto_nivel.css">
+    <style>
+        /* Agrega algún estilo básico para los elementos */
+        .yoshi, .mario_inicio {
+            transition: transform 0.5s;
+        }
+        .move-left {
+            transform: translateY(400px);
+        }
+
+        .scale-up {
+            transform: scale(1.2);
+        }
+        .translate-up{
+            transform: translateY(-800px);
+        }
+
+        .transparent {
+            opacity: 0.5; 
+        }
+        .up{
+            transform: translateY(-550px) translateX(650px);
+        }
+
+        .move-right {
+            transform: translateX( 800px) translateY(5px);
+        }
+
+    </style>
+</head>
+<body>
+    <button class="boton_volver">
+        <img src="../../imagenes/flecha_devolverse.png" alt="flecha_indicanando_hacia la izquierda" class="flecha_volver">
+        <br><a href="../../Niveles/Nivel3/Tercer_nivel.html" class="link_volver">Volver</a>
+    </button>
+    <div>
+        <img src="../../imagenes/gomba.gif" alt="gif de gomba" class="gomba2" id="gomba">
+    </div>
+    <div>
+        <img src="../../imagenes/mario_inicio3.webp" alt="gif de mario en posicion de salida" class="mario_inicio" id="mario">
+    </div>
+    <button class="flecha_izquierda" id="flechaIzquierda">flecha</button>
+    <button class="boton_golpe" id="botonGolpe">Golpe</button>
+    <button class="boton_poder" id="botonPoder">Poder</button>
+    <button class="flecha_derecha" id="flechaDerecha">flecha</button>
+    <script src="nivel4.js"></script>
+</body>
+</html>

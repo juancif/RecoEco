@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background-color: #111f;
+    background-size: 95%;
+}
+.contenedor_perdiste{
+    margin-left: 20vh;
+}
+.ladrillo_mario{
+    width: 800px;
+    height: 250px;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 370px;
+}
+.perdiste{
+    background-size: 50%;
+    width: 100px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 6vh;
+    padding-left:250px ;
+    position: absolute;
+    font-size: 150px;
+}
+
+.volver_jugar{
+    background-color: transparent;
+    margin-left: 110vb;
+    margin-top: 60vh;
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    border-radius: 30px;
+
+    border: none;
+}
+
+.volver_jugar:hover {
+    background-color: transparent;
+    background-image: url(../imagenes/mario_saliendo_tuberia.webp);
+    background-size: 100%;
+    border: none;
+    color: transparent;
+}
+
+
+.link_volver{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    padding: 120px 250px 120px 250px;
+    margin-top: -200px;
+    margin-left: -300px;
+}
+
+.link_volver:hover{
+    color: transparent;
+}
+
+
+.bowser{
+    width: 600px;
+    margin-top: 52.5vh;
+    margin-left: 2vh;
+    display: block;
+    position: absolute;
+    padding-top: 0px;
+}
+
+.bowser:hover{
+    display:table;
+}

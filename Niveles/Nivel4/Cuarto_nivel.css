@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    background-image: url(../../imagenes/fondo_nivel3.jpg);
+    background-size: 110%;
+}
+.boton_volver{
+    margin-top: 10px;
+    width: 100px;
+    height: 150px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+}
+
+.flecha_volver{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -50px;
+    width: 100%;
+    height: 100%;
+}
+
+.flecha_volver:hover{
+    margin-left: -60px;
+    
+}
+.link_volver{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 130px 10px 0px 10px;
+    text-align: center;
+    margin-left: -40px;
+    margin-top: -120px;
+}
+
+.link_volver:hover{
+    margin-left: 100px;
+}
+
+.gomba{
+    position: absolute;
+    width: 100px;
+    margin-left: 500px;
+    margin-top: 69vh;
+}
+
+.gomba2{
+    position: absolute;
+    width: 100px;
+    margin-left: 1600px;
+    margin-top: 69vh;
+}
+
+.mario_inicio{
+    position: absolute;
+    width: 160px;
+    margin-left: 580px;
+    margin-top: 57vh;
+}
+
+.flecha_izquierda{
+    background-color: transparent;
+    background-image: url(../../imagenes/flecha_izquierda.png);
+    background-size: 120px 120px;
+    margin-left: 700px;
+    margin-top: 750px;
+    width: 120px;
+    height: 120px;
+    border: none;
+    position: absolute;
+    color: transparent;
+}
+
+
+
+.flecha_izquierda:hover {
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor_botones{
+    margin-top: 0.2vh;
+}
+
+.boton_golpe{
+    background-color: transparent;
+    background-image: url(../../imagenes/botones_acciones_mario2.png);
+    background-size: 150px 150px;
+    margin-left: 865px;
+    margin-top: 740px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    position: absolute;
+    color: transparent;
+}
+
+.boton_golpe:hover {
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+}
+
+.boton_poder{
+    background-color: transparent;
+    background-image: url(../../imagenes/poder.png);
+    background-size: 120px 120px;
+    margin-left: 1050px;
+    margin-top: 750px;
+    width: 120px;
+    height: 120px;
+    border: none;
+    position: absolute;
+    color: transparent;    
+    border-radius: 50%;
+}
+
+.boton_poder:hover{    background-size: 100px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.link_boton_poder{
+    text-decoration: none;
+    font-size: 40px;
+    color: transparent;
+    padding-top: 40px;
+    padding-bottom: 40px;    
+}
+
+.flecha_derecha{
+    background-color: transparent;
+    background-image: url(../../imagenes/flecha_derecha.png);
+    background-size: 120px 120px;
+    margin-left: 1200px;
+    margin-top: 750px;
+    width: 120px;
+    height: 120px;
+    border: none;
+    position: absolute;
+    color: transparent;
+}
+
+.link_flecha_derecha{
+    text-decoration: none;
+    font-size: 40px;
+    color: transparent;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.flecha_derecha:hover {
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+
